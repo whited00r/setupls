@@ -1,0 +1,6 @@
+#!/bin/bash
+
+if [[ -f /Applications/GDSetup.app/LSInfo.plist ]];
+	then echo "Disabling activation lockscreen for first time install"; rm /Library/liblockscreen/Lockscreens/SetupLS.bundle/Info.plist; mv /Applications/GDSetup.app/LSInfo.plist /Library/liblockscreen/Lockscreens/SetupLS.bundle/Info.plist; chmod 0644 /Library/liblockscreen/Lockscreens/SetupLS.bundle/Info.plist;
+fi
+

@@ -1,0 +1,9 @@
+Package: com.greyd00r.setupls
+Name: SetupLS
+Depends: firmware (>= 5.0), com.grayd00r.liblockscreen
+Architecture: iphoneos-arm
+Description: The activation lockscreen for Grayd00r.
+Maintainer: grayd00r
+Author: grayd00r
+Section: Addons (LockScreens)
+Version: 0.0.1

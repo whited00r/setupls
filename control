@@ -1,0 +1,9 @@
+Package: com.greyd00r.setupls
+Name: SetupLS
+Depends: firmware (>= 5.0), com.grayd00r.liblockscreen
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: A cool custom lockscreen for your device!
+Maintainer: grayd00r
+Author: grayd00r
+Section: Addons (LockScreens)
